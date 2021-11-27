@@ -129,7 +129,7 @@ function Generate(props) {
         <div className="generate">
             <div className="generate_container">
                 <form className="generate_form" onSubmit={generate}>
-                <input className="generate_length" onChange={handlechange} type="number" minLength="8" placeholder="Password length" required name="length"/>
+                <input className="generate_length" onChange={handlechange} type="number" min="8" placeholder="Password length" required name="length"/>
                     <div className="strength">
                         <div className="generate_flexer">
                         <label htmlFor="strength">Weak</label>

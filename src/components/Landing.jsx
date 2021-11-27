@@ -12,12 +12,7 @@ function Landing(props) {
                     PASSGEN
                 </h1>
                 <p className="landingdes">
-                    Lorem ipsum dolor sit amet, consectetur a
-                    dipisicing elit. Officiis harum expedita vitae? 
-                    Corrupti accusantium, ea nesciunt odio saepe a, 
-                    asperiores
-                     dicta officia ipsam. Quia quasi exercitationem 
-                     aut obcaecati!
+                    welcome user , you are at the right site for creating strong passwords. go register yourself to save your passwords for future purposes
                 </p>
                 <button onClick={handleclick} className="landing_btn">Generate password</button>
             </div>
